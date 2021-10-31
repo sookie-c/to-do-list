@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/afef992f5c.js" crossorigin="anonymous"></script> 
+    <script src="https://kit.fontawesome.com/afef992f5c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>To Do List</title>
     <meta name="description" content="Simple to-do-list application">
     <meta name="author" content="Sookie">
@@ -14,11 +16,13 @@
         <header class="header">TO DO LIST</header>
         <ul class="items">
             <li class="item__row">
-                <input type="checkbox" class="item__checkbox" />
-                <span class="item__name">getting a hair cut</span>
-                <button class="item__delete">
-                    <i class="fas fa-trash-alt"></i>
-                </button>
+                <div class="item">
+                    <input type="checkbox" class="item__checkbox" />
+                    <span class="item__name">getting a hair cut</span>
+                    <button class="item__delete">
+                        <i class="fas fa-trash-alt"></i>
+                    </button>
+                </div>
                 <div class="item__divider"></div>
             </li>
         </ul>
@@ -28,7 +32,7 @@
                 <button class="footer__button">
                     <i class="fas fa-plus-circle"></i>
                 </button>
-        </form>
+            </form>
         </footer>
     </section>
 </body>
