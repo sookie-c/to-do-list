@@ -36,6 +36,7 @@ button {
   height: 500px;
   padding: 0px;
   list-style: none;
+  overflow-y: auto;
 }
 
 .item {
